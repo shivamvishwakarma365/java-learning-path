@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Solution {
+
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		int start=s.nextInt();
+		int end=s.nextInt();
+		int gap=s.nextInt();
+
+		int ans;
+		while(start<=end){
+			ans=((5*(start-32))/9);
+			System.out.println(start+" "+ans);
+			start+=gap;
+		}
+		
+	}
+
+}
