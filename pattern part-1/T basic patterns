@@ -1,0 +1,45 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        int n;
+        Scanner s=new Scanner(System.in);
+        n=s.nextInt();
+        
+        //all basic triangular patterns
+    
+    //first pattern 
+    
+    for(int i=1;i<=n;i++){
+        for(int j=0;j<i;j++){
+            
+            System.out.print((j+1)+" ");
+        }
+        System.out.print("\n");
+        
+    }
+    System.out.print("\n");
+    
+    
+    //second pattern
+    int k=1;
+    for(int i=0;i<=n;i++){
+        for(int j=0;j<i;j++){
+             System.out.print((k++)+" ");
+        }
+        System.out.print("\n");
+    }
+    System.out.print("\n");
+    
+    //third pattern
+    int p;
+    for(int i=1;i<=n;i++){
+        p=i;
+        for(int j=0;j<i;j++){
+            System.out.print((p+j)+" ");
+        }
+        System.out.print("\n");
+    }
+    }
+}
