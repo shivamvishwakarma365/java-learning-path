@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	int n;
+	int m;
+
+	cin>>n;
+	cin>>m;
+	int ans=1;
+	if(m==1){
+		ans=n*(n+1)/2;
+
+	}else if(m==2){
+		for(int i=1;i<=n;i++){
+			ans*=i;
+		}
+	}else{
+		cout<<"-1";
+	}
+
+	if(m==1 || m==2){
+		cout<<ans;
+	}
+	
+}
