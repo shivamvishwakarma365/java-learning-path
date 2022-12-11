@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	int n;
+	cin>>n;
+	int ans=1;
+	int count=1;
+	for(int i=1;count<=n;i++){
+		
+		ans=1;
+		ans=3*i+2;
+      if (ans % 4 != 0) {
+                  cout << ans << " ";
+                  count++;
+       }
+
+  }
+	
+}
