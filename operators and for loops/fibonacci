@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Solution {
+
+
+	public static void main(String[] args) {
+		int a=1;
+		int b=1;
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+		
+		if(n==1 || n==2){
+			System.out.print(1);
+		}else{
+			int c=0;
+			for(int i=0;i<n-2;i++){
+				c=a+b;
+				a=b;
+				b=c;
+			}
+			System.out.print(c);
+		}
+		// can be done thorugh recursion
+		
+		
+
+		
+	}
+
+}
