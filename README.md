@@ -1,3 +1,2 @@
-coding ninjas bootcamp 
--java course
+all about java stuff and the flow 
 
